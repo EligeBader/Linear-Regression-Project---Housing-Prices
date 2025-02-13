@@ -50,7 +50,11 @@ For this project, I used the following tools and technologies:
    - Built and trained a neural network model using TensorFlow/Keras.
    - Evaluated the models using Root-Mean-Squared-Error (RMSE) between the logarithm of predicted values and the logarithm of observed sale prices.
 
-4. **Submission**:
+
+4. **Best Model**:
+   - Among the models trained, **XGBoost** performed the best in terms of RMSE on the validation set. This model was fine-tuned using GridSearchCV to find the best hyperparameters.
+     
+5. **Submission**:
    - Predicted sale prices for the test set.
    - Prepared the submission files in the required format.
 
